@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--action:请求路径-->
+<form action="http://www.tmooc.cn">
+    <!--所有控件必须写name属性 否则不会提交参数-->
+    <!--文本框：placeholder占位文本 maxlength最大长度字符
+    value:设置默认值   readonly:只读-->
+    用户名:<input type="text" name="username" placeholder="请输入用户名"
+    maxlength="5" value="tom" readonly="readonly"><br>
+    <!--密码框和文本框的属性通用-->
+    密码:<input type="password" name="password" placeholder="请输入密码"><br>
+    <input type="submit" value="注册">
+</form>
+</body>
+</html>
